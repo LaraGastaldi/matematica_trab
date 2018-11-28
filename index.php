@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/javascript.js"></script>
-    <title>Hello, world!</title>
+    <title>cálculos financeiros</title>
   </head>
   <body>
     <div class="container mt-3">
@@ -36,17 +36,17 @@
           <div class="input-group-prepend">
             <span class="input-group-text">A vista</span>
           </div>
-          <input type="number" class="form-control" step="any">
+          <input type="number" class="form-control" step="any" id="juros-vista">
           <div class="input-group-prepend">
             <span class="input-group-text">Valor por parcela</span>
           </div>
-          <input type="number" class="form-control" step="any">
+          <input type="number" class="form-control" step="any" id="juros-vparcelas">
           <div class="input-group-prepend">
             <span class="input-group-text">Meses de parcela</span>
           </div>
-          <input type="number" class="form-control">
+          <input type="number" class="form-control" id="juros-nparcelas">
         </div>
-        <button type="button" class="btn btn-primary btn-block">Calcular</button>
+        <button type="button" class="btn btn-primary btn-block" id="juros">Calcular</button>
       </div>
       <!-- /// -->
       <div id="div2" class="container tab-pane fade">
@@ -63,7 +63,7 @@
           <div class="input-group-prepend">
             <span class="input-group-text">Meses de parcela</span>
           </div>
-          <input type="number" class="form-control" id="mont-nparcela">
+          <input type="number" class="form-control" id="mont-nparcelas">
         </div>
         <button type="button" class="btn btn-primary btn-block" id="montante">Calcular</button>
       </div>
