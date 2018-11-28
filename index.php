@@ -36,11 +36,11 @@
           <div class="input-group-prepend">
             <span class="input-group-text">A vista</span>
           </div>
-          <input type="number" class="form-control">
+          <input type="number" class="form-control" step="any">
           <div class="input-group-prepend">
             <span class="input-group-text">Valor por parcela</span>
           </div>
-          <input type="number" class="form-control">
+          <input type="number" class="form-control" step="any">
           <div class="input-group-prepend">
             <span class="input-group-text">Meses de parcela</span>
           </div>
@@ -55,11 +55,11 @@
           <div class="input-group-prepend">
             <span class="input-group-text">A vista</span>
           </div>
-          <input type="number" class="form-control" id="mont-vista">
+          <input type="number" class="form-control" id="mont-vista" step="any">
           <div class="input-group-prepend">
             <span class="input-group-text">Juros (%)</span>
           </div>
-          <input type="number" class="form-control" id="mont-juros">
+          <input type="number" class="form-control" id="mont-juros" step="any">
           <div class="input-group-prepend">
             <span class="input-group-text">Meses de parcela</span>
           </div>
@@ -93,6 +93,8 @@
           <input type="number" class="form-control">
         </div>
         <button type="button" class="btn btn-primary btn-block">Calcular</button>
+      </div>
+      <div class="container" id="resposta">
       </div>
     </div>
     <!-- Optional JavaScript -->
