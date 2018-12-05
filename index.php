@@ -46,6 +46,7 @@
           </div>
           <input type="number" class="form-control" id="juros-nparcelas">
         </div>
+        <br>
         <button type="button" class="btn btn-primary btn-block" id="juros">Calcular</button>
       </div>
       <!-- /// -->
@@ -65,6 +66,7 @@
           </div>
           <input type="number" class="form-control" id="mont-nparcelas">
         </div>
+        <br>
         <button type="button" class="btn btn-primary btn-block" id="montante">Calcular</button>
       </div>
       <!-- /// -->
@@ -94,13 +96,14 @@
         </div>
         <button type="button" class="btn btn-primary btn-block">Calcular</button>
       </div>
+      <br>
       <div class="container" id="resposta">
       </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="jquery-3.3.1.slim.min.js"></script>
-    <script src="popper.min.js"></script>
-    <script src="bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
