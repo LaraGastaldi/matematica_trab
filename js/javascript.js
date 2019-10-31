@@ -42,7 +42,9 @@ $(document).ready(function() {
           tamanho = false;
         }
       } while (tamanho === false);
-      if (isNumber(parseFloat(resultadofinal))) {
+      if((parseFloat(resultadofinal))<0){
+        $('#resposta').append("<div class='alert alert-warning alert-dismissible'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>Ops! Verifique os valores</div>");
+      }else if (isNumber(parseFloat(resultadofinal))) {
         $('#resposta').append("<div class='alert alert-success alert-dismissible'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>A porcentagem do juros é de " + resultadofinal + "%</div>");
       }else{
         $('#resposta').append("<div class='alert alert-warning alert-dismissible'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>Ops! Verifique os valores</div>");
